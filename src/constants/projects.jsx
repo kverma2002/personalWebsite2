@@ -1,4 +1,6 @@
 import projectOneImage from '../assets/flieconv.png';
+import projectTwoImage from '../assets/spotifyMac.png';
+import projectThreeImage from '../assets/kv1.png';
 
 export const projects = [
     {
@@ -10,24 +12,17 @@ export const projects = [
     },
     {
         title: 'Sportify Menu MacOS',
-        link: 'https://example.com',
-        description: 'This is a description of Project Two, focusing on different features and a unique problem-solving approach.',
-        technologies: ['Python', 'Django', 'PostgreSQL'],
-        screenshot: null, // No screenshot, so a "Visit" button will be shown
-    },
-    {
-        title: 'USC Marketplace',
-        link: 'https://example.com',
-        description: 'This is a description of Project Two, focusing on different features and a unique problem-solving approach.',
-        technologies: ['Python', 'Django', 'PostgreSQL'],
-        screenshot: null, // No screenshot, so a "Visit" button will be shown
+        link: 'https://github.com/kverma2002/SpotifyMenu-MacOS',
+        description: 'Swift app that allows the user to use a shortcut to pop up simplified Spotify menu over their current screen. The menu allows the user to play/pause, skip, and go back to the previous song. The user can also see the current song playing.',
+        technologies: ['Swift', 'AppleScript'],
+        screenshot: projectTwoImage, // No screenshot, so a "Visit" button will be shown
     },
     {
         title: 'Krit Verma Portfolio v1',
-        link: 'https://example.com',
-        description: 'This is a description of Project Two, focusing on different features and a unique problem-solving approach.',
-        technologies: ['Python', 'Django', 'PostgreSQL'],
-        screenshot: null, // No screenshot, so a "Visit" button will be shown
+        link: 'https://kritverma.com',
+        description: 'First Iteration of My Portfolio Website. Hosted on Vercel.',
+        technologies: ['React', 'CSS', 'Vercel'],
+        screenshot: projectThreeImage, // No screenshot, so a "Visit" button will be shown
     },
     // Add more projects as needed
 ];

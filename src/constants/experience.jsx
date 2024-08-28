@@ -3,14 +3,14 @@ export const experiences = [
         years: 'Sept — Present',
         place: 'Advanced Full Stack Intern · Fedex',
         description:
-            'Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.',
+            'Continued to enhance the Pickup and Dropoff portal by integrating new features and optimizing existing ones.',
         skills: ['JavaScript', 'Springboot', 'Vue.js', 'Java'],
     },
     {
         years: 'May — Aug 2024',
         place: 'Full Stack Intern · Fedex',
         description:
-            'Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community.',
+            'Developed and maintained the Pickup and Dropoff portal for drivers, improving user experience and functionality. Aggregated Pickup and Dropoff data to support upstream systems to align with the One FedEx structures.',
         skills: ['JavaScript', 'Springboot', 'Vue.js', 'Java'],
     }
     // Add more experiences as needed

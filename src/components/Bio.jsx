@@ -29,7 +29,7 @@ function Bio() {
         <div>
           <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>Krit Verma</h1>
           <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>Backend Engineer</h2>
-          <p class="mt-4 max-w-xs leading-normal">I build </p>
+          <p className="mt-4 max-w-xs leading-normal">I build </p>
           <nav className='nav hidden lg:block'>
             <ul className="mt-16 w-max space-y-4">
             <li>
@@ -96,7 +96,7 @@ function Bio() {
                   }`}
                 ></span>
                 <span className='nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200'>
-                  Technology
+                  Technologies
                 </span>
               </a>
             </li>
