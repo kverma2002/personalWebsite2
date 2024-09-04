@@ -18,11 +18,10 @@ function Content() {
                 Throughout my time at the <span className="text-yellow-500">University of Southern California</span>, I've immersed myself in the world of software development, gaining hands-on experience with a variety of programming languages and technologies. 
                 My journey has been driven by a passion for turning ideas into reality through code, and I've built several projects that have real-world applications.
             </p>
-            <p className="mb-4">
-                As a senior with experience in <span className="text-purple-500">Node.js</span>, <span className="text-teal-500">Python</span>, and <span className="text-pink-500">C++</span>, I've developed a strong foundation in backend engineering. 
-                My coursework, including <span className="text-indigo-500">Advanced Backend Development</span>, <span className="text-orange-500">Software Engineering</span>, <span className="text-green-500">Machine Learning</span>, and <span className="text-yellow-500">Operating Systems</span>, has provided me with a deep understanding of both theoretical and practical aspects of software development. 
-                I’m constantly looking for new challenges and opportunities to <span className="text-blue-500">grow my skills</span> and explore emerging technologies.
+            <p>
+                As a senior with experience in <span className="text-purple-500">Javascript</span>, <span className="text-teal-500">Python</span>, and <span className="text-pink-500">C++</span>, and frameworks <span className="text-red-500">Node.js</span> and <span className="text-blue-600">React.js</span>, I've developed a strong foundation in full stack development. My coursework, including <span className="text-indigo-500">Advanced Backend Development</span>, <span className="text-orange-500">Software Engineering</span>, <span className="text-green-500">Machine Learning</span>, and <span className="text-yellow-500">Operating Systems</span>, has provided me with a deep understanding of both theoretical and practical aspects of software development. I’m constantly looking for new challenges and opportunities to <span className="text-blue-500">grow my skills</span> and explore emerging technologies.
             </p>
+
             <p className="mb-4">
                 When I’m not at the computer, I’m usually running, reading, 
                 hanging out with my dog, 

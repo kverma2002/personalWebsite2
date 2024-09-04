@@ -28,7 +28,7 @@ function Bio() {
       <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
         <div>
           <h1 className='text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl'>Krit Verma</h1>
-          <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>Backend Engineer</h2>
+          <h2 className='mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl'>Full Stack Developer</h2>
           {/* <p className="mt-4 max-w-xs leading-normal">I build </p> */}
           <nav className='nav hidden lg:block'>
             <ul className="mt-16 w-max space-y-4">
