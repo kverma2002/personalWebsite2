@@ -39,6 +39,7 @@ function Content() {
                         place={exp.place}
                         description={exp.description}
                         skills={exp.skills}
+                        link={exp.link}
                     />
                 ))}
             </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ExperienceBox = ({ years, place, description, skills }) => {
+const ExperienceBox = ({ years, place, description, skills, link }) => {
     return (
         <div className=" mb-6 transition-transform duration-300 hover:scale-105 text-white hover:text-teal-300">
             <div className="flex justify-between items-center">
                 <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">{years}</span>
                 <h3>
-                    <a href="#" className="font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base hover:underline">
+                    <a href={link} className="font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base hover:underline">
                         {place}
                     </a>
                 </h3>
