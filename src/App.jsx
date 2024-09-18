@@ -2,6 +2,7 @@ import React from 'react'
 import Bio from './components/Bio'
 import Content from './components/Content'
 import './output.css'
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
         <Bio/>
         <Content/>
       </div>
-
+      <Analytics/>
     </div>
     
   )
