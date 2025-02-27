@@ -18,6 +18,16 @@ const ProjectBox = ({ title, link, description, technologies, screenshot }) => {
                 <p class="mt-2 text-sm leading-normal">
                     {description}
                 </p>
+                <div className="flex flex-wrap gap-2 mt-4 ">
+                    {technologies.map((skill, index) => (
+                        <span
+                            key={index}
+                            className="text-sm font-medium py-1 px-3 rounded-full bg-teal-400/10 text-teal-300"
+                        >
+                            {skill}
+                        </span>
+                    ))}
+                </div>
             </div>
             <img alt="Build a Spotify Connected App Newline course marketing card" 
                 loading="lazy" width="200" height="48" decoding="async" data-nimg="1" 

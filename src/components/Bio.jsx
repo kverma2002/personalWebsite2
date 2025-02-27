@@ -13,7 +13,7 @@ function Bio() {
           setActiveSection(entry.target.id);
         }
       });
-    }, { threshold: 0.6 });
+    }, { threshold: 0.2 });
 
     sections.forEach((section) => {
       observer.observe(section);
@@ -46,6 +46,23 @@ function Bio() {
                 ></span>
                 <span className='nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200'>
                   About
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#Certifications"
+                className={`group flex items-center ${
+                  activeSection === 'Certifications' ? 'text-slate-200' : 'text-slate-500'
+                }`}
+              >
+                <span
+                  className={`mr-2 h-0.5 w-4 transition-all duration-300 ease-in-out ${
+                    activeSection === 'Certifications' ? 'w-8 bg-slate-200' : 'bg-slate-500'
+                  }`}
+                ></span>
+                <span className='nav-text text-xs font-bold uppercase tracking-widest group-hover:text-slate-200 group-focus-visible:text-slate-200'>
+                  Certifications
                 </span>
               </a>
             </li>

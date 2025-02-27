@@ -4,22 +4,23 @@ import ProjectBox from './ProjectBox'
 import TechCarousel from './TechCarousel'
 import { experiences } from '../constants/experience'
 import { projects } from '../constants/projects'
+import CertCarousel from './CertCarousel'
 
 function Content() {
 
   return (
     <div className="pt-24 lg:w-1/2 lg:py-24">
         {/* Scrollable Content Sections */}
-        <section id="About" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+        <section id="About" className="mb-16 scroll-mt-16 md:mb-22 lg:mb-32 lg:scroll-mt-24">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">About</h2>
             </div>
             <p className="mb-4">
-                Throughout my time at the <span className="text-yellow-500">University of Southern California</span>, I've immersed myself in the world of software development, gaining hands-on experience with a variety of programming languages and technologies. 
-                My journey has been driven by a passion for turning ideas into reality through code, and I've built several projects that have real-world applications.
+                I recently graduated from the <span className="text-yellow-500">University of Southern California</span> with a Bachelor in Computer Science, where I built a strong foundation in software development and cloud development. My skills include back-end development, infrastructure automation, and cloud-native architectures.
             </p>
-            <p className='mb-4'>
-                As a senior with experience in <span className="text-purple-500">Javascript</span>, <span className="text-teal-500">Python</span>, and <span className="text-pink-500">C++</span>, and frameworks <span className="text-red-500">Node.js</span> and <span className="text-blue-600">React.js</span>, I've developed a strong foundation in full stack development. My coursework, including <span className="text-indigo-500">Advanced Backend Development</span>, <span className="text-orange-500">Software Engineering</span>, <span className="text-green-500">Machine Learning</span>, and <span className="text-yellow-500">Operating Systems</span>, has provided me with a deep understanding of both theoretical and practical aspects of software development. I’m constantly looking for new challenges and opportunities to <span className="text-blue-500">grow my skills</span> and explore emerging technologies.
+            <p className="mb-4">
+                I’ve worked with <span className="text-purple-500">JavaScript</span>, <span className="text-teal-500">Python</span>, and <span className="text-pink-500">C++</span>, alongside frameworks like <span className="text-red-500">Node.js</span> and <span className="text-blue-600">React.js</span>. My focus has now shifted towards cloud engineering mainly focusing on <span className="text-indigo-500">AWS</span> and I now hold <span className="text-yellow-500">five AWS certifications.</span>
+                <br/>
             </p>
             <p className="mb-4">
                 When I’m not at the computer, I’m usually running, reading, 
@@ -27,7 +28,13 @@ function Content() {
                 or trying to find the <span className="text-green-500">best food in town</span>.
             </p>
         </section>
-        <section id="Experience" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+        <section id="Certifications" className="mb-16 scroll-mt-16 md:mb-22 lg:mb-34 lg:scroll-mt-24">
+            <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+                <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Certifications</h2>
+            </div>
+            <CertCarousel/>
+        </section>
+        <section id="Experience" className="mb-16 scroll-mt-16 md:mb-22 lg:mb-36 lg:scroll-mt-24">
             <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 class="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">Experience</h2>
             </div>

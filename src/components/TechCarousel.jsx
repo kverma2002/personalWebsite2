@@ -9,26 +9,27 @@ import pythonLogo from '../assets/python.svg';
 import awsLogo from '../assets/aws.png';
 import dockerLogo from '../assets/docker.webp';
 import githubLogo from '../assets/github.png';
-import firebaseLogo from '../assets/fb.png'; 
-import mongoLogo from '../assets/mongo.png';
+import kubeLogo from '../assets/kube.png'; 
 import laravelLogo from '../assets/laravel.svg';
 import springLogo from '../assets/sb.png';
+import terraformLogo from '../assets/terraform.png';
 
 
 
 const TechCarousel = () => {
 
     const technologies = [
-        { name: 'React', image: reactLogo },
-        { name: 'Node.js', image: nodeLogo },
-        { name: 'JavaScript', image: jsLogo },
-        { name: 'C++', image: cppLogo },
-        { name: 'Python', image: pythonLogo },
         { name: 'AWS', image: awsLogo },
         { name: 'Docker', image: dockerLogo },
+        { name: 'Kubernetes', image: kubeLogo },
         { name: 'Github', image: githubLogo},
-        { name: 'Firebase', image: firebaseLogo},
-        { name: 'MongoDB', image: mongoLogo},
+        { name: 'Terraform', image: terraformLogo },
+        { name: 'Python', image: pythonLogo },
+        { name: 'JavaScript', image: jsLogo },
+        { name: 'React', image: reactLogo },
+        { name: 'Node.js', image: nodeLogo },
+        { name: 'C++', image: cppLogo },
+        
         { name: 'Laravel', image: laravelLogo},
         { name: 'Spring Boot', image: springLogo},
         // Add more technologies as needed

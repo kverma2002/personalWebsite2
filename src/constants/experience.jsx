@@ -1,6 +1,6 @@
 export const experiences = [
     {
-        years: 'Sept — Present',
+        years: 'Sept — Dec 2024',
         place: 'Advanced Full Stack Intern · Fedex',
         description:
             'Continued to enhance the Pickup and Dropoff portal by integrating new features and optimizing existing ones.',
