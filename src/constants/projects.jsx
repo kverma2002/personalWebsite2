@@ -23,7 +23,7 @@ export const projects = [
     {
         title: 'Text To Speech Extension',
         link: 'https://github.com/kverma2002/free_tts_extension',
-        description: 'File Converter Local is a web application that allows users to host their own file conversion service replacing the unsecure ones on the internet. Users can upload files, select the desired output format, and download the converted files.',
+        description: 'Serverless Chrome extension converting highlighted text to speech with AWS Lambda, API Gateway, and AWS Polly.',
         technologies: ['AWS', 'Javascript', 'Lambda', 'Terraform'],
         screenshot: projectFiveImage, // replace with your image URL
     },
